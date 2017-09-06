@@ -1,18 +1,17 @@
-# NVM Kernel   
-(Non-Volatile Memory Based Kernel)   
+# Improved PRAMFS   
+(Improved Protected and Persistent RAM Filesystem)   
 
 
 ## Summary   
-高速不揮発性メモリ向けOS (※現在開発途中)   
-Linux-3.12.49のソースコードをベースに高速不揮発性メモリ向けに改良したもの。   
+高速不揮発性メモリ向けファイルシステムのPRAMFS改良版 (※現在開発途中)   
+元のPRAMFSのバグは修正済み。   
 
+※ 今後はpramfsにジャーナリングシステムを実装予定   
+　（ジャーナリングはJBDを用いる）   
 
 ## Base File System   
 - [pramfs](http://pramfs.sourceforge.net)   
-- [pramfs-improved](https://github.com/kohga/pramfs-improved)   
 
-※ pramfsにジャーナリングシステムを実装予定   
-ジャーナリングはJBDを用いる   
 
 
 ## Reference  
