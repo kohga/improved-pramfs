@@ -3,15 +3,25 @@
 
 
 ## Summary   
-高速不揮発性メモリ向けファイルシステムのPRAMFS改良版 (※現在開発途中)   
-元のPRAMFSのバグは修正済み。   
+PRAMFS is a high-speed non-volatile memory system.   
+I made improvements on that file system.   
 
-※ 今後はpramfsにジャーナリングシステムを実装予定   
-　（ジャーナリングはJBDを用いる）   
+### pramfs-original
+The original PRAMFS.   
 
-## Base File System   
+### pramfs-fixes
+Bug improved version.   
+
+### pramfs-dp
+PRAMFS for [dp-lkernel](https://github.com/kohga/dp-lkernel).   
+
+### pramfs-jbd
+PRAMFS for [nvm-lkernel](https://github.com/kohga/nvm-lkernel).   
+This file system implements a journaling system.   
+
+
+## Original File System   
 - [pramfs](http://pramfs.sourceforge.net)   
-
 
 
 ## Reference  
