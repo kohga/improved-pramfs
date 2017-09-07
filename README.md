@@ -4,7 +4,7 @@
 
 ## Summary   
 PRAMFS is a high-speed non-volatile memory system.   
-I made improvements on that file system.   
+I made improvements on PRAMFS.   
 
 ### pramfs-original
 The original PRAMFS.   
