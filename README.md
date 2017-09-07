@@ -13,10 +13,10 @@ The original PRAMFS.
 Bug improved version.   
 
 ### pramfs-dp
-PRAMFS for [dplkernel](https://github.com/kohga/dplkernel).   
+PRAMFS for [dp-lkernel](https://github.com/kohga/dp-lkernel).   
 
 ### pramfs-jbd
-PRAMFS for [nvmlkernel](https://github.com/kohga/nvmlkernel).   
+PRAMFS for [nvm-lkernel](https://github.com/kohga/nvm-lkernel).   
 This file system implements a journaling system.   
 
 
