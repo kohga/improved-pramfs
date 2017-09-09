@@ -446,8 +446,8 @@ static struct pram_inode *pram_init(struct super_block *sb, unsigned long size)
 	root_i = pram_get_inode(sb, PRAM_ROOT_INO);
 
 	root_i->i_mode = cpu_to_be16(sbi->mode | S_IFDIR);
-	root_i->i_uid = cpu_to_be32(sbi->uid.val);
-	root_i->i_gid = cpu_to_be32(sbi->gid.val);
+	root_i->i_uid = cpu_to_be32(sbi->uid.val);   // kohga_hack
+	root_i->i_gid = cpu_to_be32(sbi->gid.val);   // kohga_hack
 	root_i->i_links_count = cpu_to_be16(2);
 	root_i->i_d.d_parent = cpu_to_be64(PRAM_ROOT_INO);
 	pram_sync_inode(root_i);
